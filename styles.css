@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: white;
 }
 
 .emoji {
@@ -9,7 +10,7 @@
     width: 100px;
     height: 25px;
     padding: 5px;
-    border: black solid;
+    border: rgb(255, 255, 255) solid;
 }
 body {
     background-color: black;
