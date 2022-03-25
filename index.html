@@ -6,23 +6,24 @@
 </head>
 <body>
     <h1>Double Click To Copy</h1>
-    <h3 onclick="CopyToClipboard(the1)" class="emoji">👍Wyatt🌎</h3>
+    <h3 onclick="CopyToClipboard(the1)" id="the1" class="emoji">👍Wyatt🌎</h3>
     <br>
-    <h3 onclick="CopyToClipboard(the2)" class="emoji">🇼‌🇾‌🇦‌🇹‌🇹‌</h3>
+    <h3 onclick="CopyToClipboard(the2)" id="the2" class="emoji">🇼‌🇾‌🇦‌🇹‌🇹‌</h3>
     <br>
-    <h3 onclick="CopyToClipboard(the3)" class="emoji">🆆🆈🅰🆃🆃</h3>
+    <h3 onclick="CopyToClipboard(the3)" id="the3" class="emoji">🆆🆈🅰🆃🆃</h3>
     <br>
-    <h3 onclick="CopyToClipboard(the4)" class="emoji">ᗯƳᗩ丅丅</h3>
+    <h3 onclick="CopyToClipboard(the4)" id="the4" class="emoji">ᗯƳᗩ丅丅</h3>
     <br>
-    <h3 onclick="CopyToClipboard(the5)" class="emoji">🇼‌🇾‌🇦‌🇹‌🇹‌</h3>
+    <h3 onclick="CopyToClipboard(the5)" id="the5" class="emoji">🇼‌🇾‌🇦‌🇹‌🇹‌</h3>
     <br>
-    <h3 onclick="CopyToClipboard(the6)" class="emoji">Ⓦⓨⓐⓣⓣ</h3>
+    <h3 onclick="CopyToClipboard(the6)" id="the6" class="emoji">Ⓦⓨⓐⓣⓣ</h3>
     <br>
-    <h3 onclick="CopyToClipboard(the7)" class="emoji">🅿️Wyatt🅿️</h3>
+    <h3 onclick="CopyToClipboard(the7)" id="the7" class="emoji">🅿️Wyatt🅿️</h3>
 </body>
     <script>
 function CopyToClipboard(id)
 {
+var thing = document.getElementById(id);
 document.execCommand('copy');
 }
 </script>
