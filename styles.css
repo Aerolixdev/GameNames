@@ -10,6 +10,8 @@
     width: 100px;
     height: 25px;
     padding: 5px;
+    border: black solid;
+    cursor: pointer;
     border: rgb(255, 255, 255) solid;
 }
 body {
