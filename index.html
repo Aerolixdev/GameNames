@@ -6,15 +6,11 @@
 </head>
 <body>
     <h1>Copy These</h1>
-    <h3 onclick="activatecopy(the1)" id="the1" class="emoji">&#127758Wyatt&#128077</h3>
+    <h3 onclick="activatecopy(the1)" value="&#127758Wyatt&#128077" id="the1" class="emoji">&#127758Wyatt&#128077</h3>
 </body>
 <script>
     function activatecopy(theid) {
   var copyText = document.getElementById(theid);
-
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
    /* Copy the text inside the text field */
   navigator.clipboard.writeText(copyText.value);
