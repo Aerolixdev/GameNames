@@ -1,1 +1,13 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
 
+.emoji {
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    border: black solid;
+}
