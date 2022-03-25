@@ -12,12 +12,9 @@
     <script>
 function CopyToClipboard(id)
 {
-var r = document.createRange();
-r.selectNode(document.getElementById(id));
-window.getSelection().removeAllRanges();
-window.getSelection().addRange(r);
+var thing = document.getElementById(id);
+thing.selext
 document.execCommand('copy');
-window.getSelection().removeAllRanges();
 }
 </script>
 </script>
