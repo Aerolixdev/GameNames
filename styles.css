@@ -7,9 +7,9 @@
 .emoji {
     display: inline-block;
     background-color: rgb(74, 74, 252);
-    width: 100px;
-    height: 25px;
-    padding: 5px;
+    width: 125px;
+    height: 40px;
+    padding: 10px;
     border: black solid;
     cursor: pointer;
     border: rgb(255, 255, 255) solid;
